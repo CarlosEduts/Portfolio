@@ -34,5 +34,11 @@
       },
       "footer": "Feito por Carlos."
     }
+  },
+  "Page404": {
+    "h1": "404",
+    "h2": "Página não encontrada.",
+    "p": "Perdido? Não se preocupe, até os melhores exploradores se perdem às vezes.",
+    "a": "Volte à página inicial!"
   }
 }
