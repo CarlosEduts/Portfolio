@@ -116,6 +116,9 @@ export default function Home() {
             title={t("container.projects.linkioo.title")}
             subtitle={t("container.projects.linkioo.subtitle")}
             deployUrl="https://www.lkoo.xyz/"
+            descriptio="Linkioo é um encurtador de links simples, rápido e eficiente. Com ele, você pode transformar URLs longas em links curtos e fáceis de compartilhar.
+Tecnologias: Next.js, TypeScript, next-intl(Idiomas: EN, PT), MongoDB Atlas, TailwindCSS e Vercel."
+            codeUrl=""
           />
 
           <ProjectCard
@@ -123,6 +126,9 @@ export default function Home() {
             title={t("container.projects.devkiit.title")}
             subtitle={t("container.projects.devkiit.subtitle")}
             deployUrl="https://devkiit.vercel.app/"
+            descriptio="Linkioo é um encurtador de links simples, rápido e eficiente. Com ele, você pode transformar URLs longas em links curtos e fáceis de compartilhar.
+Tecnologias: Next.js, TypeScript, next-intl(Idiomas: EN, PT), MongoDB Atlas, TailwindCSS e Vercel."
+            codeUrl=""
           />
         </section>
 
