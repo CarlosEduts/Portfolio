@@ -6,33 +6,13 @@
   --background: #f4fbff;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground: #edf7fb;
-    --foreground-90: rgba(246, 246, 246, 0.8);
-    --grey: #6a7c8d25;
-    --blue: #00a3e9;
-    --background: #0a141e;
-  }
-}
-
-/* Classe para alteração de cor por meio do JavaScript */
-html.dark-mode {
+.dark {
   --foreground: #edf7fb;
   --foreground-90: rgba(246, 246, 246, 0.8);
   --grey: #6a7c8d25;
   --blue: #00a3e9;
   --background: #0a141e;
 }
-
-html.light-mode {
-  --foreground: #0d1b2a;
-  --foreground-90: rgba(22, 22, 24, 0.8);
-  --grey: #b2c7d81d;
-  --blue: #0071a3;
-  --background: #f4fbff;
-}
-
 
 html,
 body {
@@ -190,6 +170,8 @@ header p {
 }
 
 .page-actions-box > button {
+  width: 33px;
+  height: 33px;
   display: flex;
   align-items: center;
   justify-content: center;

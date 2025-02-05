@@ -2,13 +2,13 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 
 import {
-  IconBrightnessDown,
   IconBrandGithub,
   IconBrandLinkedin,
   IconBrandInstagram,
 } from "@tabler/icons-react";
 import Image from "next/image";
 import ProjectCard from "../components/ProjectCard";
+import ButtonTheme from "../components/ButtonTheme";
 
 export default function Home() {
   const t = useTranslations("Home");
@@ -17,9 +17,7 @@ export default function Home() {
       <header className="header-actions">
         <div>
           <div className="page-actions-box">
-            <button id="theme-toggle" title="Alterar o tema">
-              <IconBrightnessDown stroke={2} className="header-icon" />
-            </button>
+            <ButtonTheme />
 
             <div className="language-toggle">
               <Link href="pt" rel="prefetch">
