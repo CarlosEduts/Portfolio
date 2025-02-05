@@ -30,6 +30,11 @@
           "title": "DevKiit",
           "subtitle": "A set of web tools.",
           "description": "DevKiit is a set of tools for developers and general users, offering essential functionalities to optimize workflow. Technologies: Next.js, TypeScript, TailwindCSS, next-intl, and Prettier."
+        },
+        "zen-homepage": {
+          "title": "ZEN HOMEPAGE",
+          "subtitle": "Minimalist homepage for browsers.",
+          "description": "ZEN HOMEPAGE is a minimalist homepage for browsers, designed to offer practical tools such as conversions, calculator, random password generator, custom search, and much more."
         }
       },
       "footer": "Made by Carlos."

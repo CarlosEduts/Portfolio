@@ -128,6 +128,15 @@ export default function Home() {
             deployUrl="https://devkiit.vercel.app/"
             codeUrl="https://github.com/CarlosEduts/dev-kiit"
           />
+
+          <ProjectCard
+            imageSrc="/projects/zen-homepage.png"
+            title={t("container.projects.zen-homepage.title")}
+            subtitle={t("container.projects.zen-homepage.subtitle")}
+            descriptio={t("container.projects.zen-homepage.description")}
+            deployUrl="https://zen-homepage.vercel.app/"
+            codeUrl="https://github.com/CarlosEduts/zen-homepage"
+          />
         </section>
 
         <footer>
