@@ -20,7 +20,6 @@ export default function ProjectCard({
   deployUrl,
   codeUrl,
 }: Props) {
-  const [isOpenDrawer, setIsOpenDrawer] = useState(false);
   const [cssClassName, setCssClassName] = useState("project-drawer-closed");
 
   const openDrawer = () => {

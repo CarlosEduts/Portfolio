@@ -29,7 +29,7 @@
         "devkiit": {
           "title": "DevKiit",
           "subtitle": "Conjunto de ferramentas web.",
-          "description":"DevKiit é um conjunto de ferramentas para desenvolvedores e usuários em geral, oferecendo funcionalidades essenciais para otimizar o fluxo de trabalho. Tecnologias: Next.js, TypeScript, TailwindCSS, next-intl e Prettier."
+          "description": "DevKiit é um conjunto de ferramentas para desenvolvedores e usuários em geral, oferecendo funcionalidades essenciais para otimizar o fluxo de trabalho. Tecnologias: Next.js, TypeScript, TailwindCSS, next-intl e Prettier."
         }
       },
       "footer": "Feito por Carlos."

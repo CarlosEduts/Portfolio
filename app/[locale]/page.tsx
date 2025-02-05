@@ -115,20 +115,18 @@ export default function Home() {
             imageSrc="/projects/linkioo.png"
             title={t("container.projects.linkioo.title")}
             subtitle={t("container.projects.linkioo.subtitle")}
+            descriptio={t("container.projects.linkioo.description")}
             deployUrl="https://www.lkoo.xyz/"
-            descriptio="Linkioo é um encurtador de links simples, rápido e eficiente. Com ele, você pode transformar URLs longas em links curtos e fáceis de compartilhar.
-Tecnologias: Next.js, TypeScript, next-intl(Idiomas: EN, PT), MongoDB Atlas, TailwindCSS e Vercel."
-            codeUrl=""
+            codeUrl="https://github.com/CarlosEduts/linkioo"
           />
 
           <ProjectCard
             imageSrc="/projects/devkiit.png"
             title={t("container.projects.devkiit.title")}
             subtitle={t("container.projects.devkiit.subtitle")}
+            descriptio={t("container.projects.devkiit.description")}
             deployUrl="https://devkiit.vercel.app/"
-            descriptio="Linkioo é um encurtador de links simples, rápido e eficiente. Com ele, você pode transformar URLs longas em links curtos e fáceis de compartilhar.
-Tecnologias: Next.js, TypeScript, next-intl(Idiomas: EN, PT), MongoDB Atlas, TailwindCSS e Vercel."
-            codeUrl=""
+            codeUrl="https://github.com/CarlosEduts/dev-kiit"
           />
         </section>
 

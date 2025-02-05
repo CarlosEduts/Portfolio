@@ -1,5 +1,38 @@
 {
   "Home": {
-    "title": "Hello world!"
+    "container": {
+      "header": {
+        "h1": "Carlos Silva",
+        "p": "I am a Front-end developer who turns pixels into experiences."
+      },
+      "about-me": {
+        "h2": "About Me",
+        "p": "I am Carlos Eduardo, and I started programming at the age of 14. I enjoy keeping up with the latest trends and technologies to enhance the projects I work on. I am always learning and seeking new challenges, which keeps my enthusiasm for programming alive."
+      },
+      "skills": {
+        "h2": "My Skills",
+        "p": "JavaScript, React.js, Next.js, TypeScript, Responsive Design, Intuitive Design."
+      },
+      "more-about-me": {
+        "h2": "Explore More About Me",
+        "p-start": "Feel free to explore my ",
+        "a-cv": "Resume ",
+        "p-end": "or follow my ideas and experiences through my posts on "
+      },
+      "projects": {
+        "h2": "Projects",
+        "linkioo": {
+          "title": "Linkioo",
+          "subtitle": "A simple, fast, and efficient link shortener.",
+          "description": "Linkioo is a simple, fast, and efficient link shortener. With it, you can transform long URLs into short, easy-to-share links. Technologies: Next.js, TypeScript, next-intl (Languages: EN, PT), MongoDB Atlas, TailwindCSS, and Vercel."
+        },
+        "devkiit": {
+          "title": "DevKiit",
+          "subtitle": "A set of web tools.",
+          "description": "DevKiit is a set of tools for developers and general users, offering essential functionalities to optimize workflow. Technologies: Next.js, TypeScript, TailwindCSS, next-intl, and Prettier."
+        }
+      },
+      "footer": "Made by Carlos."
+    }
   }
 }
