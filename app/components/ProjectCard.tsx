@@ -24,9 +24,11 @@ export default function ProjectCard({
 
   const openDrawer = () => {
     setCssClassName("project-drawer");
+    document.body.style.overflow = "hidden";
   };
   const closeDrawer = () => {
     setCssClassName("project-drawer-closed");
+    document.body.style.overflow = "auto";
   };
 
   return (
