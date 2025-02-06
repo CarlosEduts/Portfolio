@@ -45,7 +45,7 @@ export default function ProjectCard({
         </div>
       </div>
       <div className="project-actions">
-        <button onClick={openDrawer}>
+        <button onClick={openDrawer} title={`${title} Drawer`}>
           <IconPlayerPlay stroke={2} />
         </button>
       </div>
@@ -55,7 +55,7 @@ export default function ProjectCard({
         {/* Ação de fechar a drawer */}
         <div onClick={closeDrawer}></div>
         <div className="project-drawer-content">
-          <div className="drawer-mini-bar"></div>
+          <div className="drawer-mini-bar" onClick={closeDrawer}></div>
           <div className="drawer-project-text">
             <div>
               <Image
