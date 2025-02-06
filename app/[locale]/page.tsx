@@ -92,7 +92,7 @@ export default function Home() {
             <h2>{t("container.more-about-me.h2")}</h2>
             <p>
               {t("container.more-about-me.p-start")}
-              <a href="./documents/cv.html" target="_blank">
+              <a href="/doc/cv.html" target="_blank">
                 {t("container.more-about-me.a-cv")}
               </a>
               {t("container.more-about-me.p-end")}
