@@ -39,5 +39,11 @@
       },
       "footer": "Made by Carlos."
     }
-  }
+  },
+  "NotFound": {
+  "h2": "Page not found.",
+  "p": "Lost? Don't worry, even the best explorers get lost sometimes.",
+  "link": "Go back to the homepage!"
+}
+
 }

@@ -1,14 +1,17 @@
 import './globals.css'
+import { useTranslations } from "next-intl";
+import { Link } from "@/i18n/routing";
 
 export default function NotFound() {
+  const t = useTranslations("NotFound");
+
   return (
     <div className="page404">
       <div className="content">
         <h1>404</h1>
-        <p><strong>Página não encontrada.</strong></p>
+        <h2><strong>{t("h2")}</strong></h2>
         <p>
-          Perdido? Não se preocupe, até os melhores exploradores se perdem às
-          vezes. <a href="/">Volte à página inicial!</a>
+        {t("p")} <Link href="/">{t("link")}</Link>
         </p>
       </div>
     </div>
